@@ -2,12 +2,13 @@ export default {
     COLORS: {
         DEFAULT: '#172B4D',
         PRIMARY: '#5E72E4',
+        MAIN_COLOR: '#0051A9',
         SECONDARY: '#F7FAFC',
         LABEL: '#FE2472',
         INFO: '#11CDEF',
-        ERROR: '#F5365C',
+        ERROR: '#B80000',
         SUCCESS: '#2DCE89',
-        WARNING: '#FB6340',
+        WARNING: '#FAA300',
         /*not yet changed */
         MUTED: '#ADB5BD',
         INPUT: '#DCDCDC',
@@ -28,5 +29,6 @@ export default {
         BORDER: '#CAD1D7',
         WHITE: '#FFFFFF',
         BLACK: '#000000',
+        GREY: '#F0F0F0',
     },
 };

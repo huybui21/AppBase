@@ -1,24 +1,41 @@
 {
-    "expo": {
-        "name": "Argon FREE React Native",
-        "slug": "argon-free-react-native",
-        "privacy": "public",
-        "platforms": ["ios", "android"],
-        "version": "1.7.1",
-        "orientation": "portrait",
-        "icon": "./assets/icon.png",
-        "splash": {
-            "image": "./assets/bg_loading.png",
-            "resizeMode": "cover",
-            "backgroundColor": "#ffffff"
-        },
-        "updates": {
-            "fallbackToCacheTimeout": 0
-        },
-        "assetBundlePatterns": ["**/*"],
-        "ios": {
-            "supportsTablet": true
-        },
-        "description": "Argon React Native, based on Argon Design System. Coded by Creative Tim"
-    }
+  "expo": {
+    "name": "AppBase",
+    "slug": "app-base",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.7.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/bg_loading.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Cho phép $(AppBase) truy cập camera của bạn",
+          "microphonePermission": "Cho phép $(AppBase) truy cập microphone của bạn",
+          "recordAudioAndroid": true
+        }
+      ],
+      "expo-asset",
+      "expo-font"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "Design By IT-CNHP"
+  }
 }
